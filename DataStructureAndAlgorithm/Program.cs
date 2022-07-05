@@ -12,6 +12,7 @@ namespace DataStructureAndAlgorithm
             numbers.Insert(10);
             numbers.Insert(15);
             numbers.Insert(20);
+            numbers.RemoveAt(3);
             numbers.Print();
 
         }
@@ -41,6 +42,26 @@ namespace DataStructureAndAlgorithm
                 items = newItems;
             }
         }
+
+
+        public void RemoveAt(int index)
+        {
+            //Validate Input
+            if (index < 0 || index >= count)
+            {
+                Console.WriteLine("Invalid Operation");
+                throw new IndexOutOfRangeException();
+
+            }
+            //Resize array Element  
+            for (int i = index; i < count; i++)
+            {
+                items[i] = items[i + 1];
+            }
+            //Remove empty item from array
+            count--;
+
+        }
         public void Print()
         {
             for (int i = 0; i < count; i++)
@@ -48,8 +69,6 @@ namespace DataStructureAndAlgorithm
                 Console.WriteLine(items[i]);
 
             }
-            Console.ReadLine();
-           
         }
     }
 }
