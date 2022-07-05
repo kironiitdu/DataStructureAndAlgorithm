@@ -1,27 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace DataStructureAndAlgorithm
+namespace DataStructureAndAlgorithm.DsArray
 {
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            DSArray numbers = new DSArray(3);
-            numbers.Insert(5);
-            numbers.Insert(10);
-            numbers.Print();
-
-        }
-    }
-
-    public class DSArray
+    public class DsArray
     {
         private int[] items;
         private int count;
 
         //Dynamic Array Creation
-        public DSArray(int length)
+        public DsArray(int length)
         {
             items = new int[length];
         }
