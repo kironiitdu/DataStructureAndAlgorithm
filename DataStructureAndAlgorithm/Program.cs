@@ -65,6 +65,7 @@ namespace DataStructureAndAlgorithm
             }
         }
 
+
         public void RemoveAt(int index)
         {
             //Validate Input
@@ -102,8 +103,6 @@ namespace DataStructureAndAlgorithm
                 Console.WriteLine(items[i]);
 
             }
-            Console.ReadLine();
-
         }
     }
 }
