@@ -57,7 +57,7 @@
 
 <a target="_blank" href="https://github.com/kironiitdu/AzureAuthBotImplementation/blob/main/README.md"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sudiptob2/0" alt="Latest medium article">
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@sudiptob2/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sudiptob2/1" alt="Latest medium article"> </a>
+<a target="_blank" href="https://github.com/kironiitdu/UserActivityActionFitler#readme"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@sudiptob2/1" alt="Latest medium article"> </a>
 
 #### Connect With Me
 
